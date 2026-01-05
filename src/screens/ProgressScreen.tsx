@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { StreakDisplay } from '@/components/StreakDisplay';
 import { VirtueStats } from '@/components/VirtueStats';
 import { WeeklyReviewCard } from '@/components/WeeklyReviewCard';
+import { CalendarHeatmap } from '@/components/CalendarHeatmap';
 import { useHabits } from '@/hooks/useHabits';
 import { useLocalStorage, getWeekNumber } from '@/hooks/useLocalStorage';
 
@@ -12,12 +13,15 @@ export function ProgressScreen() {
     virtueStats,
     getMostMissedHabit,
     getStrongestVirtue,
+    progressHistory,
   } = useHabits();
 
   const [dismissedWeeks, setDismissedWeeks] = useLocalStorage<string[]>(
     'stoic_dismissed_reviews',
     []
   );
+
+  const [calendarMonth, setCalendarMonth] = useState(() => new Date());
 
   // Check if we should show weekly review (every 7 days)
   const today = new Date();
@@ -51,6 +55,15 @@ export function ProgressScreen() {
         <StreakDisplay
           streakData={streakData}
           completionPercentage={completionPercentage}
+        />
+      </div>
+
+      {/* Calendar Heatmap */}
+      <div className="mb-6 animate-fade-in">
+        <CalendarHeatmap
+          progressHistory={progressHistory}
+          month={calendarMonth}
+          onMonthChange={setCalendarMonth}
         />
       </div>
 
