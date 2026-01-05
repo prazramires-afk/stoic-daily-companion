@@ -1,0 +1,58 @@
+import { Habit } from '@/types/habits';
+
+export const defaultHabits: Habit[] = [
+  {
+    id: 'premeditatio',
+    title: 'Prepare the mind for difficulty',
+    description: 'Premeditatio Malorum — Mentally rehearse potential challenges to face them with calm resolve.',
+    quote: 'Begin each day by telling yourself: Today I shall be meeting with interference, ingratitude, insolence, disloyalty, ill-will, and selfishness.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'wisdom',
+    controlType: 'within',
+  },
+  {
+    id: 'dichotomy',
+    title: 'Focus only on what is in your control',
+    description: 'The Dichotomy of Control — Direct energy toward your actions and judgments, not external outcomes.',
+    quote: 'You have power over your mind — not outside events. Realize this, and you will find strength.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'wisdom',
+    controlType: 'within',
+  },
+  {
+    id: 'virtue',
+    title: 'Act according to virtue',
+    description: 'Let wisdom, courage, justice, and temperance guide every decision you make today.',
+    quote: 'Waste no more time arguing about what a good man should be. Be one.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'justice',
+    controlType: 'within',
+  },
+  {
+    id: 'amor-fati',
+    title: 'Accept events calmly',
+    description: 'Amor Fati — Embrace what happens as necessary and good. Do not wish for things to be different.',
+    quote: 'Accept the things to which fate binds you, and love the people with whom fate brings you together.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'courage',
+    controlType: 'within',
+  },
+  {
+    id: 'gratitude',
+    title: 'Practice gratitude',
+    description: 'Acknowledge the gifts of existence. Find contentment in what you already have.',
+    quote: 'When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'temperance',
+    controlType: 'within',
+  },
+  {
+    id: 'examination',
+    title: 'Evening self-examination',
+    description: 'Review your day: What did you do well? Where did you fall short? How will you improve?',
+    quote: 'The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane.',
+    quoteAuthor: 'Marcus Aurelius',
+    virtue: 'wisdom',
+    controlType: 'within',
+  },
+];

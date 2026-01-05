@@ -7,12 +7,16 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "430px",
       },
     },
     extend: {
+      fontFamily: {
+        quote: ['Cormorant Garamond', 'Georgia', 'serif'],
+        body: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,27 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        stoic: {
+          olive: "hsl(var(--stoic-olive))",
+          sage: "hsl(var(--stoic-sage))",
+          "deep-olive": "hsl(var(--stoic-deep-olive))",
+          dusty: "hsl(var(--stoic-dusty))",
+          moss: "hsl(var(--stoic-moss))",
+          earth: "hsl(var(--stoic-earth))",
+          stone: "hsl(var(--stoic-stone))",
+          marble: "hsl(var(--stoic-marble))",
+          pale: "hsl(var(--stoic-pale))",
+        },
+        virtue: {
+          wisdom: "hsl(var(--virtue-wisdom))",
+          courage: "hsl(var(--virtue-courage))",
+          justice: "hsl(var(--virtue-justice))",
+          temperance: "hsl(var(--virtue-temperance))",
+        },
+        progress: {
+          ring: "hsl(var(--progress-ring))",
+          track: "hsl(var(--progress-track))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,28 +87,25 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      spacing: {
+        'safe-bottom': 'env(safe-area-inset-bottom, 0px)',
       },
     },
   },
