@@ -1,27 +1,58 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Lock } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 interface StoicConceptCardProps {
   title: string;
   summary: string;
+  isLocked: boolean;
+  daysRequired?: number;
   onClick: () => void;
 }
 
-export function StoicConceptCard({ title, summary, onClick }: StoicConceptCardProps) {
+export function StoicConceptCard({ 
+  title, 
+  summary, 
+  isLocked, 
+  daysRequired,
+  onClick 
+}: StoicConceptCardProps) {
   return (
     <button
-      onClick={onClick}
-      className="w-full text-left bg-card rounded-2xl p-5 border border-border/50 hover:border-border transition-colors"
+      onClick={isLocked ? undefined : onClick}
+      disabled={isLocked}
+      className={cn(
+        "w-full text-left bg-card rounded-2xl p-5 border border-border/50 transition-colors",
+        isLocked 
+          ? "opacity-75 cursor-default" 
+          : "hover:border-border"
+      )}
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1">
-          <h3 className="text-habit-title font-semibold text-foreground mb-2">
-            {title}
-          </h3>
-          <p className="text-secondary text-muted-foreground line-clamp-2">
-            {summary}
-          </p>
+          <div className="flex items-center gap-2 mb-2">
+            {isLocked && (
+              <Lock className="w-4 h-4 text-muted-foreground flex-shrink-0" />
+            )}
+            <h3 className={cn(
+              "text-habit-title font-semibold",
+              isLocked ? "text-muted-foreground" : "text-foreground"
+            )}>
+              {title}
+            </h3>
+          </div>
+          {isLocked ? (
+            <p className="text-secondary text-muted-foreground/70 italic">
+              Unlocks after {daysRequired} days of consistent practice
+            </p>
+          ) : (
+            <p className="text-secondary text-muted-foreground line-clamp-2">
+              {summary}
+            </p>
+          )}
         </div>
-        <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+        {!isLocked && (
+          <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0 mt-0.5" />
+        )}
       </div>
     </button>
   );
