@@ -149,6 +149,206 @@ When you find yourself disturbed, ask: "Is this within my control?" If not, remi
     quoteAuthor: "Epictetus"
   },
   {
+    id: 'premeditatio',
+    title: 'Premeditatio Malorum',
+    summary: 'Prepare the mind for difficulty by imagining possible hardships in advance.',
+    content: `Beyond pessimism, Premeditatio Malorum is an exercise in resilience. By imagining possible difficulties in advance, the mind becomes familiar with hardship before it arrives. What is anticipated loses its power to disturb.
+
+This practice is not about fear, but preparation. When adversity appears, it feels less like an invasion and more like a guest you were expecting.`,
+    quote: "He robs present ills of their power who has perceived their coming beforehand.",
+    quoteAuthor: "Seneca"
+  },
+  {
+    id: 'memento-mori',
+    title: 'Memento Mori',
+    summary: 'Remember death — not to frighten, but to clarify what truly matters.',
+    content: `Memento Mori is not morbid reflection, but clarity. By remembering that life is finite, we are stripped of trivial concerns and drawn back to what matters.
+
+Awareness of death sharpens gratitude, dissolves procrastination, and urges us to act with integrity. Time becomes precious when it is no longer assumed to be endless.`,
+    quote: "You could leave life right now. Let that determine what you do and say and think.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'apatheia',
+    title: 'Apatheia (Freedom from Passions)',
+    summary: 'Freedom from being dragged by destructive impulses and irrational judgments.',
+    content: `Apatheia is often misunderstood as emotional numbness. In truth, it is freedom — freedom from being dragged by destructive impulses and irrational judgments.
+
+The Stoic does not deny emotion, but refuses to be ruled by it. Calm replaces chaos when reason is allowed to lead.`,
+    quote: "No man is free who is not master of himself.",
+    quoteAuthor: "Epictetus"
+  },
+  {
+    id: 'eudaimonia',
+    title: 'Eudaimonia (Flourishing Through Virtue)',
+    summary: 'True happiness arises from living in accordance with virtue, not pleasure.',
+    content: `True happiness is not pleasure, wealth, or status. For the Stoic, Eudaimonia arises from living in accordance with virtue.
+
+A good life is not measured by comfort, but by character. Even in hardship, one can flourish by choosing wisdom, courage, justice, and temperance.`,
+    quote: "Happiness is a good flow of life.",
+    quoteAuthor: "Zeno of Citium"
+  },
+  {
+    id: 'living-nature',
+    title: 'Living According to Nature',
+    summary: 'Live according to reason and reality, accepting the world as it is.',
+    content: `To live according to nature is to live according to reason and reality. It means accepting the world as it is, not as we wish it to be.
+
+Resistance to reality creates suffering. Alignment with it creates peace.`,
+    quote: "Stop arguing about what a good man should be. Be one.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'sympatheia',
+    title: 'Sympatheia (Universal Connection)',
+    summary: 'All things are interconnected parts of a greater whole.',
+    content: `Stoicism teaches that all things are interconnected parts of a greater whole. No action exists in isolation.
+
+Understanding this dissolves resentment and fosters compassion. Harm to others ultimately harms ourselves.`,
+    quote: "What brings no benefit to the hive brings none to the bee.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'view-above',
+    title: 'The View from Above',
+    summary: 'Lift the mind beyond narrow perspective to see troubles in cosmic context.',
+    content: `This exercise lifts the mind beyond narrow perspective. By imagining life from above — cities, nations, centuries — our personal troubles shrink.
+
+What once felt overwhelming becomes manageable when seen in context.`,
+    quote: "Observe the stars in their courses, and consider yourself running with them.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'voluntary-discomfort',
+    title: 'Voluntary Discomfort',
+    summary: 'Occasionally choose discomfort to weaken dependence on comfort.',
+    content: `By occasionally choosing discomfort, we weaken our dependence on comfort. Fear of loss fades when we learn we can endure less.
+
+This practice builds inner security that cannot be taken away.`,
+    quote: "Set aside a certain number of days during which you shall be content with the scantiest food.",
+    quoteAuthor: "Seneca"
+  },
+  {
+    id: 'self-mastery',
+    title: 'Self-Mastery',
+    summary: 'Power over oneself is lasting; power over others is fleeting.',
+    content: `Power over others is fleeting. Power over oneself is lasting.
+
+The Stoic trains discipline not to dominate, but to remain free regardless of circumstances.`,
+    quote: "The first and best victory is to conquer self.",
+    quoteAuthor: "Plato (echoed by Stoics)"
+  },
+  {
+    id: 'tranquility',
+    title: 'Tranquility Over Pleasure',
+    summary: 'Value steady peace over fleeting highs and constant stimulation.',
+    content: `Pleasure excites, then abandons. Tranquility remains.
+
+Stoicism teaches us to value steady peace over fleeting highs, and calm contentment over constant stimulation.`,
+    quote: "A happy life is one which is in accordance with its own nature.",
+    quoteAuthor: "Seneca"
+  },
+  {
+    id: 'present-moment',
+    title: 'Focus on the Present Moment',
+    summary: 'The past is gone, the future imagined. Only the present is real.',
+    content: `The past is gone. The future is imagined. The present alone is real.
+
+Anxiety dissolves when attention returns to what is happening now.`,
+    quote: "Confine yourself to the present.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'acceptance',
+    title: 'Acceptance Without Resignation',
+    summary: 'Engage fully while releasing attachment to outcomes.',
+    content: `Acceptance does not mean inaction. It means engaging fully while releasing attachment to outcomes.
+
+You act with care, then accept whatever follows with dignity.`,
+    quote: "Do your duty, and leave the rest to fate.",
+    quoteAuthor: "Epictetus"
+  },
+  {
+    id: 'rational-judgment',
+    title: 'Rational Judgment',
+    summary: 'Events are neutral; suffering arises from interpretation.',
+    content: `Events themselves are neutral. Suffering arises from interpretation.
+
+By examining our judgments, we regain freedom.`,
+    quote: "If you are distressed by anything external, the pain is not due to the thing itself.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'gratitude',
+    title: 'Gratitude for What Is',
+    summary: 'Contentment grows when appreciation replaces entitlement.',
+    content: `Contentment grows when appreciation replaces entitlement.
+
+Gratitude grounds us in sufficiency rather than lack.`,
+    quote: "He who is grateful for little has abundance.",
+    quoteAuthor: "Epictetus"
+  },
+  {
+    id: 'social-duty',
+    title: 'Social Duty',
+    summary: 'Virtue expresses itself through service to others.',
+    content: `Humans are not meant to live for themselves alone.
+
+Virtue expresses itself through service to others.`,
+    quote: "We are made for cooperation.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'inner-citadel',
+    title: 'The Inner Citadel',
+    summary: 'Within you is a place untouched by chaos — the ruling mind.',
+    content: `Within you is a place untouched by chaos — the ruling mind.
+
+No one can invade it unless you allow them.`,
+    quote: "You have power over your mind — not outside events.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
+    id: 'progress',
+    title: 'Progress, Not Perfection',
+    summary: 'Stoicism is practice, not purity. Each day offers improvement.',
+    content: `Stoicism is practice, not purity.
+
+Each day offers another opportunity to improve.`,
+    quote: "No man suddenly becomes wise.",
+    quoteAuthor: "Seneca"
+  },
+  {
+    id: 'simplicity',
+    title: 'Simplicity',
+    summary: 'Excess multiplies anxiety. Simplicity restores freedom.',
+    content: `Excess multiplies anxiety. Simplicity restores freedom.
+
+By needing less, we gain more.`,
+    quote: "It is not the man who has too little, but the man who craves more, that is poor.",
+    quoteAuthor: "Seneca"
+  },
+  {
+    id: 'endurance',
+    title: 'Endurance',
+    summary: 'Strength grows through patient endurance of what cannot be changed.',
+    content: `Some things cannot be changed — only borne.
+
+Strength grows through patient endurance.`,
+    quote: "The gem cannot be polished without friction.",
+    quoteAuthor: "Stoic principle"
+  },
+  {
+    id: 'right-action',
+    title: 'Right Action',
+    summary: 'Do what is right, even if unseen. Virtue is its own reward.',
+    content: `Do what is right, even if unseen.
+
+Virtue is its own reward.`,
+    quote: "Waste no more time arguing what a good man should be. Be one.",
+    quoteAuthor: "Marcus Aurelius"
+  },
+  {
     id: 'impermanence',
     title: 'Impermanence',
     summary: 'All things are temporary. This too shall pass — both pleasure and pain.',
