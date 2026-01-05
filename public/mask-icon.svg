@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#F5F2ED"/>
+  <g fill="#6B705C">
+    <!-- Main pillar -->
+    <rect x="216" y="160" width="80" height="240" rx="4"/>
+    <!-- Top capital -->
+    <rect x="180" y="140" width="152" height="30" rx="6"/>
+    <rect x="196" y="130" width="120" height="20" rx="4"/>
+    <!-- Base -->
+    <rect x="180" y="400" width="152" height="20" rx="4"/>
+    <rect x="196" y="420" width="120" height="12" rx="3"/>
+    <!-- Fluting lines -->
+    <rect x="232" y="180" width="8" height="200" rx="2" opacity="0.3"/>
+    <rect x="252" y="180" width="8" height="200" rx="2" opacity="0.3"/>
+    <rect x="272" y="180" width="8" height="200" rx="2" opacity="0.3"/>
+  </g>
+</svg>
